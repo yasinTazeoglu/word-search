@@ -9,8 +9,7 @@ class info extends Component {
     // 2 pause
   }
   render() {
-    const video = this.props.video;
-    const item = this.props.item;
+    const {video,item} = this.props
     return (
       <div className="maincards">
         <div className="card">
